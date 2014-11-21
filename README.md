@@ -1,8 +1,9 @@
 dotfiles
 ========
 
-Collection of various config files
+Collection of various config files.
 
-## Vim
+# Vim
 
-run ```git submodule init && git submodule update``` before starting vim
+1. Create vim’s backup folder in your home directory ```mkdir ~/.vimbackup```.
+1. Run ```git submodule init && git submodule update``` before starting vim.
