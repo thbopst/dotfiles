@@ -87,3 +87,6 @@ let g:ctrlp_custom_ignore = {
 
 let g:erlangCheckFile = "~/.vim/bundle/vimerl/compiler/erlang_check_file.erl"
 let g:erlangHighlightErrors = 1
+
+" latex
+au FileType tex set wrap linebreak nolist textwidth=0 wrapmargin=0
